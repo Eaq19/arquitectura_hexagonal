@@ -1,0 +1,13 @@
+package com.example.bddspringboot.repositorio;
+
+import java.util.UUID;
+
+import com.example.bddspringboot.modelo.PerfilCliente;
+
+public interface RepositorioPerfilCliente {
+	
+	public PerfilCliente findById(UUID id);
+	
+	public void save(PerfilCliente perfilCliente);
+	
+}

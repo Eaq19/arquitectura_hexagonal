@@ -1,0 +1,16 @@
+package com.example.bddspringboot.conversor;
+
+import org.springframework.core.convert.converter.Converter;
+
+import com.example.bddspringboot.modelo.EventoClienteCreado;
+import com.example.bddspringboot.modelo.PerfilCliente;
+
+public class ConversorEventoClienteCreado implements Converter <EventoClienteCreado, PerfilCliente> {
+
+	@Override
+	public PerfilCliente convert(EventoClienteCreado source) {
+		// TODO Auto-generated method stub
+		return source == null ? null : PerfilCliente.builder(),id(source.getId()).build();
+	}
+
+}

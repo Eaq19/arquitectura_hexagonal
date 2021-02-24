@@ -1,0 +1,41 @@
+package com.example.bddspringboot.modelo;
+
+import java.time.LocalDate;
+import java.util.UUID;
+
+import javax.persistence.Column;
+import javax.persistence.Entity;
+import javax.persistence.GeneratedValue;
+import javax.persistence.Id;
+import javax.persistence.Table;
+
+import org.hibernate.annotations.GenericGenerator;
+
+import lombok.Builder;
+import lombok.Getter;
+import lombok.Setter;
+
+@Entity
+@Table(schema = "perfil", name = "perfil_cliente")
+@Getter
+@Setter
+@Builder
+public class PerfilCliente {
+
+	@Id
+	@Column(name= "id", updatable = false, nullable = false)
+	private UUID id;
+	
+	@Column(name= "nombre", nullable = false)
+	private String nombre;
+	
+	@Column(name= "fecha_nacimiento")
+	private LocalDate fechaNacimiento;
+	
+	@Column(name= "email")
+	private String email;
+	
+	@Column(name= "telefono")
+	private String telefono;
+	
+}

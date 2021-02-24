@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="UserKafkaConsumerTest (1)" project="bdd-spring-boot" tests="1" started="1" failures="0" errors="0" ignored="0">
+  <testsuite name="com.example.bddspringboot.bus.UserKafkaConsumerTest" time="1.608" displayname="UserKafkaConsumerTest" uniqueid="[engine:junit-jupiter]/[class:com.example.bddspringboot.bus.UserKafkaConsumerTest]">
+    <testcase name="testLogKafkaMessages" classname="com.example.bddspringboot.bus.UserKafkaConsumerTest" time="1.608" displayname="testLogKafkaMessages()" uniqueid="[engine:junit-jupiter]/[class:com.example.bddspringboot.bus.UserKafkaConsumerTest]/[method:testLogKafkaMessages()]"/>
+  </testsuite>
+</testrun>

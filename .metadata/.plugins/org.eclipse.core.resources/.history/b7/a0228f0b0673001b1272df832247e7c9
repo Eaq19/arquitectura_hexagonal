@@ -1,0 +1,21 @@
+package com.example.bddspringboot.modelo;
+
+import java.time.LocalDate;
+import java.util.UUID;
+
+import lombok.Builder;
+import lombok.Getter;
+import lombok.Setter;
+
+@Getter
+@Setter
+@Builder
+public class EventoClienteCreado {
+
+	public UUID id;
+	public String nombre;
+	public LocalDate fechaNacimiento;
+	public String email;
+	public String telefono;
+	
+}

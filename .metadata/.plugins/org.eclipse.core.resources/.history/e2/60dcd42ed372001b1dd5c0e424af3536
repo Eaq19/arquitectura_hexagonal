@@ -1,0 +1,16 @@
+package com.example.bddspringboot.repositorio;
+
+import java.util.Optional;
+import java.util.UUID;
+
+import org.springframework.data.jpa.repository.JpaRepository;
+
+import com.example.bddspringboot.modelo.PerfilCliente;
+
+public interface RepositorioPerfilCliente extends JpaRepository<PerfilCliente, UUID> {
+	
+	public Optional<PerfilCliente> findById(UUID id);
+	
+	public void save(PerfilCliente perfilCliente);
+	
+}

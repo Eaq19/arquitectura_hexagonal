@@ -1,0 +1,14 @@
+package com.example.bddspringboot.servicio.impl;
+
+import com.example.bddspringboot.modelo.EventoClienteCreado;
+import com.example.bddspringboot.servicio.ServicioEventoClienteCreado;
+
+public class ServicioEventoClienteCreadoImpl implements ServicioEventoClienteCreado {
+
+	@Override
+	public void registrar(EventoClienteCreado eventoClienteCreado) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

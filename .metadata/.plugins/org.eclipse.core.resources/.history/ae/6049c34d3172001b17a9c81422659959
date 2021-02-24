@@ -1,0 +1,60 @@
+package com.example.bddspringboot.servicio;
+
+import static org.hamcrest.CoreMatchers.is;
+import static org.hamcrest.CoreMatchers.not;
+import static org.hamcrest.CoreMatchers.nullValue;
+import static org.hamcrest.MatcherAssert.assertThat;
+import static org.mockito.Mockito.doReturn;
+import static org.mockito.Mockito.verify;
+
+import java.time.LocalDate;
+import java.util.UUID;
+
+import org.junit.jupiter.api.Test;
+import org.junit.runner.RunWith;
+import org.mockito.ArgumentCaptor;
+import org.springframework.boot.test.context.SpringBootTest;
+import org.springframework.boot.test.mock.mockito.MockBean;
+import org.springframework.test.annotation.DirtiesContext;
+import org.springframework.test.context.junit4.SpringRunner;
+
+import com.example.bddspringboot.modelo.PerfilCliente;
+import com.example.bddspringboot.repositorio.RepositorioPerfilCliente;
+import com.example.bddspringboot.vo.RespuestaPerfilCliente;
+
+@RunWith(SpringRunner.class)
+@SpringBootTest(webEnvironment = SpringBootTest.WebEnvironment.NONE)
+@DirtiesContext(classMode = DirtiesContext.ClassMode.BEFORE_CLASS)
+class ServicioConsultaPerfilClienteTest {
+
+	@MockBean
+	private RepositorioPerfilCliente repositorio;
+	
+	@MockBean
+	private ServicioConsultaPerfilCliente sut;
+	
+	@Test
+	void dadoIdClienteExistenteEntoncesDevuelvePerfilCliente() {
+		// Given
+        UUID id = UUID.randomUUID();
+        PerfilCliente perfil = PerfilCliente.builder().id(id).nombre("Edison").fechaNacimiento(LocalDate.of(1995, 2, 28)).email("edison@hotmail.com").telefono("+57 312593534").build();
+        doReturn(perfil).when(repositorio).findById(id);
+        
+        // When       
+        RespuestaPerfilCliente result = sut.consultar(id);
+
+        // Then
+        assertThat(result, is(not(nullValue())));
+        assertThat(result.getId(), is(id));
+        assertThat(result.getNombre(), is("Edison"));
+        assertThat(result.getFechaNacimiento(), is(LocalDate.of(1995, 2,28)));
+        assertThat(result.getEmail(), is("edison@hotmail.com"));
+        assertThat(result.getTelefono(), is("+57 312593534"));
+        
+        ArgumentCaptor<?> idCaptor = ArgumentCaptor.forClass(UUID.class);
+        verify(repositorio).findById((UUID) idCaptor.capture());
+        assertThat(idCaptor.getValue(), is(id));
+        
+	}
+
+}

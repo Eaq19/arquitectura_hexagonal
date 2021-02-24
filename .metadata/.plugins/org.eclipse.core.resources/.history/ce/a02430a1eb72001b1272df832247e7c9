@@ -1,0 +1,14 @@
+package com.example.bddspringboot.repositorio;
+
+import static org.junit.jupiter.api.Assertions.*;
+
+import org.junit.jupiter.api.Test;
+
+class RepositorioPerfilClienteIT {
+
+	@Test
+	void test() {
+		fail("Not yet implemented");
+	}
+
+}

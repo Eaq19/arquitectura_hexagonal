@@ -1,0 +1,28 @@
+package com.example.bddspringboot.modelo;
+
+import java.time.LocalDate;
+import java.util.UUID;
+
+import com.example.bddspringboot.entity.PerfilCliente;
+
+import lombok.AccessLevel;
+import lombok.AllArgsConstructor;
+import lombok.Builder;
+import lombok.Data;
+import lombok.Getter;
+import lombok.NoArgsConstructor;
+import lombok.Setter;
+
+@Data
+@Builder
+@AllArgsConstructor(access = AccessLevel.PACKAGE)
+@NoArgsConstructor(access = AccessLevel.PACKAGE)
+public class EventoClienteCreado {
+	
+	public UUID id;
+	public String nombre;
+	public LocalDate fechaNacimiento;
+	public String email;
+	public String telefono;
+	
+}

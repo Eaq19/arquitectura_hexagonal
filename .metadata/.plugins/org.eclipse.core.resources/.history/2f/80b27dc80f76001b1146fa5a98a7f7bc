@@ -1,0 +1,14 @@
+package com.example.bddspringboot.bus;
+
+import org.springframework.beans.factory.annotation.Value;
+import org.springframework.stereotype.Component;
+
+@Component
+public class kafkaProducer {
+
+	@Value("${spring.kafka.replication.factor:1}")
+	private int replicationFactor;
+	
+	@Value("${spring.kafka.partition.number:1}")
+	private int partitionNumber;
+}

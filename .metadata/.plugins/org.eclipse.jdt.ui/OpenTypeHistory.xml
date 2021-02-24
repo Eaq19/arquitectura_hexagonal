@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<typeInfoHistroy>
+    <typeInfo handle="=bdd-spring-boot/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;com.example.bddspringboot.servicio{ServicioConsultaPerfilCliente.java[ServicioConsultaPerfilCliente" modifiers="513" timestamp="1613496747935"/>
+    <typeInfo handle="=bdd-spring-boot/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;com.example.bddspringboot.servicio{ServicioEventoClienteCreado.java[ServicioEventoClienteCreado" modifiers="513" timestamp="1613686274087"/>
+    <typeInfo handle="=bdd-spring-boot/C:\/Users\/eandr\/.m2\/repository\/org\/apache\/kafka\/kafka-clients\/2.6.0\/kafka-clients-2.6.0.jar=/maven.pomderived=/true=/=/maven.pomderived=/true=/=/maven.groupId=/org.apache.kafka=/=/maven.artifactId=/kafka-clients=/=/maven.version=/2.6.0=/=/maven.scope=/compile=/&lt;org.apache.kafka.common.serialization(Deserializer.class[Deserializer" modifiers="1537" timestamp="1613773770781"/>
+</typeInfoHistroy>

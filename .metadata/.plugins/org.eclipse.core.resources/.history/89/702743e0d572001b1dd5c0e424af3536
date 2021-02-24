@@ -1,0 +1,36 @@
+databaseChangeLog:
+  - changeSet:
+    id: perfil_create_schema
+    autor: Edison
+    changes:
+    - sql:
+        sql: CREATE SCHEMA IF NOT EXISTS perfil
+  - changeSet:
+    id: perfil_create_table_perfil_cliente
+    autor: Edison
+    changes:
+    - createTable:
+        schemaName: perfil
+        tableName: perfil_cliente
+        columns:
+        - columns:
+            name: id
+            type: uuid
+            constraints:
+              primaryKey: true
+              nullable: false
+        - columns:
+            name: nombre
+            type: VARCHAR(200)
+            constraints:
+              nullable: false
+        - columns:
+            name: fecha_nacimiento
+            type: DATE
+        - columns:
+            name: email
+            type: VARCHAR(200)
+        - columns:
+            name: telefono
+            type: VARCHAR(20)
+     

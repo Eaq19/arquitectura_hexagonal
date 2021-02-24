@@ -1,0 +1,5 @@
+package com.example.bddspringboot.bus;
+
+public class EventoClienteCreadoDeserializer extends JsonDeserializer<EventoClienteCreado> {
+
+}
