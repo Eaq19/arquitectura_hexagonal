@@ -1,5 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?><testrun name="KafkaProducerTest" project="bdd-spring-boot" tests="1" started="1" failures="0" errors="0" ignored="0">
-  <testsuite name="com.example.bddspringboot.bus.KafkaProducerTest" incomplete="true" displayname="KafkaProducerTest" uniqueid="[engine:junit-jupiter]/[class:com.example.bddspringboot.bus.KafkaProducerTest]">
-    <testcase name="test" classname="com.example.bddspringboot.bus.KafkaProducerTest" incomplete="true" displayname="test()" uniqueid="[engine:junit-jupiter]/[class:com.example.bddspringboot.bus.KafkaProducerTest]/[method:test()]"/>
-  </testsuite>
-</testrun>

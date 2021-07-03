@@ -67,3 +67,5 @@ r
 Bsrc/main/java/com/example/bddspringboot/bus/UserKafkaProducer.java,9\b\9b72a0facdb87d76d2fd2c49d06ddc961f8ff4da
 v
 Fsrc/test/java/com/example/bddspringboot/bus/UserKafkaConsumerTest.java,4\e\4ead2662dc2d8ff942841a31e48461c3902d6ac0
+h
+8src/main/java/com/example/bddspringboot/modelo/User.java,f\b\fb668e56a8e7be401a9ebf996ab4de191621b860

@@ -1,16 +1,16 @@
 
-Š
-java:S1104"RMake nombre a static final constant or non-public and provide accessors if needed.(¯‰–‚úÿÿÿÿ8Ä¯’äû.HŸRMINORZ
-CODE_SMELL
-†
-java:S1104"NMake id a static final constant or non-public and provide accessors if needed.(ê“àþùÿÿÿÿ8Ä¯’äû.H RMINORZ
-CODE_SMELL
-Ž
-java:S1104"[Make fechaNacimiento a static final constant or non-public and provide accessors if needed.(êÝ„Ó8Ä¯’äû.H¡RMINORZ
+‰
+java:S1104"QMake email a static final constant or non-public and provide accessors if needed.(¾Æ†Ëýÿÿÿÿ8Ä¯’äû.H¸RMINORZ
 CODE_SMELL
 ‡
-java:S1104"TMake telefono a static final constant or non-public and provide accessors if needed.(Â³µê8Ä¯’äû.H¢RMINORZ
+java:S1104"TMake telefono a static final constant or non-public and provide accessors if needed.(Â³µê8Ä¯’äû.H¹RMINORZ
 CODE_SMELL
-‰
-java:S1104"QMake email a static final constant or non-public and provide accessors if needed.(¾Æ†Ëýÿÿÿÿ8Ä¯’äû.H£RMINORZ
+†
+java:S1104"NMake id a static final constant or non-public and provide accessors if needed.(ê“àþùÿÿÿÿ8Ä¯’äû.HµRMINORZ
+CODE_SMELL
+Ž
+java:S1104"[Make fechaNacimiento a static final constant or non-public and provide accessors if needed.(êÝ„Ó8Ä¯’äû.H·RMINORZ
+CODE_SMELL
+Š
+java:S1104"RMake nombre a static final constant or non-public and provide accessors if needed.(¯‰–‚úÿÿÿÿ8Ä¯’äû.H¶RMINORZ
 CODE_SMELL

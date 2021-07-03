@@ -1,9 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-    <fullyQualifiedTypeName name="com.example.bddspringboot.bus.UuidDeserializer"/>
-    <fullyQualifiedTypeName name="org.springframework.kafka.listener.MessageListenerContainer"/>
     <fullyQualifiedTypeName name="org.springframework.kafka.config.KafkaListenerEndpointRegistry"/>
-    <fullyQualifiedTypeName name="com.example.bddspringboot.servicio.ServicioEventoClienteCreado"/>
     <fullyQualifiedTypeName name="org.junit.jupiter.api.BeforeEach"/>
     <fullyQualifiedTypeName name="org.junit.jupiter.api.AfterEach"/>
     <fullyQualifiedTypeName name="com.example.bddspringboot.bus.ConsumidorEventoClienteCreado"/>
@@ -54,10 +51,13 @@
     <fullyQualifiedTypeName name="org.apache.kafka.clients.producer.ProducerRecord"/>
     <fullyQualifiedTypeName name="org.apache.kafka.common.serialization.UUIDSerializer"/>
     <fullyQualifiedTypeName name="org.springframework.kafka.annotation.KafkaListener"/>
-    <fullyQualifiedTypeName name="com.example.bddspringboot.modelo.EventoClienteCreado"/>
-    <fullyQualifiedTypeName name="org.springframework.kafka.support.serializer.JsonDeserializer"/>
     <fullyQualifiedTypeName name="org.apache.kafka.common.serialization.StringSerializer"/>
     <fullyQualifiedTypeName name="org.apache.kafka.clients.consumer.ConsumerConfig"/>
     <fullyQualifiedTypeName name="org.apache.kafka.common.serialization.StringDeserializer"/>
     <fullyQualifiedTypeName name="com.example.bddspringboot.modelo.User"/>
+    <fullyQualifiedTypeName name="com.madadipouya.springkafkatest.bus.UserKafkaConsumer"/>
+    <fullyQualifiedTypeName name="org.springframework.boot.test.mock.mockito.MockBean"/>
+    <fullyQualifiedTypeName name="com.example.bddspringboot.servicio.ServicioEventoClienteCreado"/>
+    <fullyQualifiedTypeName name="org.springframework.kafka.support.serializer.JsonDeserializer"/>
+    <fullyQualifiedTypeName name="com.example.bddspringboot.modelo.EventoClienteCreado"/>
 </qualifiedTypeNameHistroy>

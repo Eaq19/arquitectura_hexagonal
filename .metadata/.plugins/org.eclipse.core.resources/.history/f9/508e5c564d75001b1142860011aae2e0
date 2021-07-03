@@ -1,9 +1,0 @@
-package com.example.bddspringboot.bus;
-
-import org.springframework.kafka.support.serializer.JsonDeserializer;
-
-import com.example.bddspringboot.modelo.EventoClienteCreado;
-
-public class EventoClienteCreadoDeserializer extends JsonDeserializer<EventoClienteCreado> {
-
-}

@@ -1,5 +1,0 @@
-package com.example.bddspringboot.bus;
-
-public class KafkaConsumerTest {
-
-}

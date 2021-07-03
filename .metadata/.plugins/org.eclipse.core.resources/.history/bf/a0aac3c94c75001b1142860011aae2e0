@@ -1,7 +1,0 @@
-package com.example.bddspringboot.bus;
-
-import org.apache.kafka.common.serialization.Deserializer;
-
-public class UuidDeserializer implements Deserializer<UUID> {
-
-}
